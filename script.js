@@ -1,7 +1,10 @@
 // Ejemplo: Cargar entradas de bitácora dinámicamente
 const bitacoraData = [
-    { fecha: "20/05/2024", contenido: "Primera observación: Los estudiantes mostraron interés en el debate sobre emociones." },
-{ fecha: "22/05/2024", contenido: "Desafío: Falta de recursos tecnológicos en la comunidad." }
+    { fecha: "12/05/2024", contenido: "Primera observación: Los estudiantes mostraron interés en el debate sobre emociones." },
+{ fecha: "13/05/2024", contenido: "Desafío: Falta de recursos tecnológicos en la comunidad." }, 
+{ fecha: "14/05/2024", contenido: "Desafío: Falta de recursos tecnológicos en la comunidad." }, 
+{ fecha: "15/05/2024", contenido: "Dia Festivo" }, 
+{ fecha: "16/05/2024", contenido: "Desafío: Falta de recursos tecnológicos en la comunidad." }
 ];
 
 function cargarBitacora() {
