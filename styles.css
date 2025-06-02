@@ -42,3 +42,38 @@ footer {
     background-color: #2c3e50;
     color: white;
 }
+
+   h1 {
+      text-align: center;
+      color: #2a5d9f;
+      margin-bottom: 30px;
+    }
+
+    .glosario {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+    }
+
+    .termino {
+      margin-bottom: 25px;
+    }
+
+    .titulo {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #1b3a6f;
+      margin-bottom: 8px;
+    }
+
+    .definicion {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .icono {
+      font-size: 1.2em;
+      margin-right: 6px;
+      color: #3b82f6;
+    }
