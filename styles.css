@@ -77,3 +77,46 @@ footer {
       margin-right: 6px;
       color: #3b82f6;
     }
+    
+    .slider {
+      width: 70%;
+      max-width: 600px;
+      height: 350px;
+      margin: 1.4rem auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .slides {
+      display: flex;
+      width: 90%;
+      animation: slide 20s infinite;
+    }
+    
+    .slide {
+      flex: 1 0 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .slide img {
+      width: 77%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 12px;
+    }
+    
+    @keyframes slide {
+      0%   { transform: translateX(0%); }
+      20%  { transform: translateX(0%); }
+      25%  { transform: translateX(-100%); }
+      45%  { transform: translateX(-100%); }
+      50%  { transform: translateX(-200%); }
+      70%  { transform: translateX(-200%); }
+      75%  { transform: translateX(-300%); }
+      95%  { transform: translateX(-300%); }
+      100% { transform: translateX(0%); }
+    }
+    
